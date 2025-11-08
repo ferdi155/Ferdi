@@ -33,7 +33,7 @@ const Contact = () => (
         className="flex items-center gap-2 transform hover:scale-105 transition-transform duration-200 hover:text-green-400"
       >
         <i className="fab fa-whatsapp text-green-500 animate__animated animate__bounceIn animate__delay-4s"></i>
-        <span className="text-sm md:text-base">+62 895-170-56813</span>
+        <span className="text-black md:text-base">+62 895-170-56813</span>
       </a>
     </div>
   </section>
