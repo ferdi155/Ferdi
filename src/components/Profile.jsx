@@ -13,12 +13,13 @@ const Profile = () => (
           alt="Ferdi"
           className="relative w-72 h-82 object-cover rounded-3xl shadow-2xl "
         />
-
       </div>
       <div className="text-center lg:text-left animate__animated animate__fadeInRight animate__delay-1s max-w-2xl">
         <h2 className="text-3xl lg:text-4xl text-gray-600 mb-8 animate__animated animate__fadeInUp animate__delay-2s">
           <span className="font-semibold">Ferdi Alfiansah</span>
-          <span className="block text-xl text-gray-600 mt-2">Front end Developer</span>
+          <span className="block text-xl text-gray-600 mt-2">
+            Front end Developer
+          </span>
         </h2>
         <p className="text-lg text-gray-700 mb-8 leading-relaxed animate__animated animate__fadeInUp animate__delay-3s">
           I’m passionate about creating interactive and responsive web
@@ -46,16 +47,32 @@ const Profile = () => (
           </a>
         </div>
         <div className="mt-8 flex justify-center lg:justify-start gap-6 animate__animated animate__fadeInUp animate__delay-5s">
-          <a href="#tech" className="text-gray-600 hover:text-purple-600 transition-colors duration-300">
+          <a
+            href="#tech"
+            className="text-gray-600 hover:text-purple-600 transition-colors duration-300"
+          >
             <i className="ri-code-s-slash-line text-2xl"></i>
           </a>
-          <a href="https://github.com" target="_blank" rel="noreferrer" className="text-gray-600 hover:text-purple-600 transition-colors duration-300">
+          <a
+            href="https://github.com"
+            target="_blank"
+            rel="noreferrer"
+            className="text-gray-600 hover:text-purple-600 transition-colors duration-300"
+          >
             <i className="ri-github-line text-2xl"></i>
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-gray-600 hover:text-purple-600 transition-colors duration-300">
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            rel="noreferrer"
+            className="text-gray-600 hover:text-purple-600 transition-colors duration-300"
+          >
             <i className="ri-linkedin-line text-2xl"></i>
           </a>
-          <a href="mailto:ferdialfiansah73@gmail.com" className="text-gray-600 hover:text-purple-600 transition-colors duration-300">
+          <a
+            href="mailto:ferdialfiansah73@gmail.com?subject=Halo&body=Hai%20Ferdialfiansah,%0A%0ASaya%20ingin%20bertanya..."
+            className="text-gray-600 hover:text-purple-600 transition-colors duration-300"
+          >
             <i className="ri-mail-line text-2xl"></i>
           </a>
         </div>
