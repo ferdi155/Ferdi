@@ -55,7 +55,7 @@ const Navbar = () => {
         </div>
 
         {menuOpen && (
-          <div className="absolute top-16 right-0 w-120 bg-white shadow-lg p-4 space-y-2 md:hidden">
+          <div className="absolute top-16 right-0 w-105 bg-white shadow-lg p-4 space-y-2 md:hidden">
             <a href="#tech" className="nav-link block">
               Tech Stack
             </a>
@@ -72,7 +72,7 @@ const Navbar = () => {
               href="https://wa.me/6289517056813"
               target="_blank"
               rel="noreferrer"
-              className=" block bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-md  items-center"
+              className=" block bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-md  text-center"
             >
               <i className="ri-whatsapp-line mr-2"></i> Let's Talk
             </a>
