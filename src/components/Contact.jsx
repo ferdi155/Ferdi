@@ -6,10 +6,10 @@ const Contact = () => (
     className="text-center py-16 animate__animated animate__fadeInUp animate__delay-1s"
     id="contact"
   >
-    <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4 animate__animated animate__fadeInDown animate__delay-1s">
+    <h2 className="text-3xl font-bold text-gray-900 mb-4 animate__animated animate__fadeInDown animate__delay-1s">
       Let's build something together
     </h2>
-    <p className="text-gray-600 dark:text-gray-300 mb-6 max-w-xl mx-auto animate__animated animate__fadeInUp animate__delay-2s">
+    <p className="text-gray-600  mb-6 max-w-xl mx-auto animate__animated animate__fadeInUp animate__delay-2s">
       Feel free to reach out if you're looking for a developer, have a question,
       or just want to connect.
     </p>
@@ -33,7 +33,7 @@ const Contact = () => (
         className="flex items-center gap-2 transform hover:scale-105 transition-transform duration-200 hover:text-green-400"
       >
         <i className="fab fa-whatsapp text-green-500 animate__animated animate__bounceIn animate__delay-4s"></i>
-        <span>+62 895-170-56813</span>
+        <span className="text-sm md:text-base">+62 895-170-56813</span>
       </a>
     </div>
   </section>
