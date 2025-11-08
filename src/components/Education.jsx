@@ -7,9 +7,16 @@ const education = [
   {
     school: "SMK  Fatahillah Cileungsi",
     degree: "Software engineering",
-    period: "2015 - 2018",
+    period: "2022 - 2025",
     location: "Bogor, Indonesia",
     details: ["Web fundamentals, networking basics, hands-on projects"]
+  },
+  {
+    school: "Dumbways Indonesia",
+    degree: "Fullstack Development",
+    period: "2025",
+    location: "Bogor, Indonesia",
+    details: ["Web fundamentals, Fremawork basics, hands-on projects"]
   }
 ];
 
