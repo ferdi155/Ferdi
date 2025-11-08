@@ -49,7 +49,7 @@ const certificates = [
 const Certificate = () => (
   <section id="certificates" className="py-16 animate__animated animate__fadeInUp animate__delay-1s">
     <div className="max-w-6xl mx-auto px-4">
-      <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-8 flex items-center gap-3 animate__animated animate__bounceIn animate__delay-2s">
+      <h2 className="text-3xl font-bold text-gray-900mb-8 flex items-center gap-3 animate__animated animate__bounceIn animate__delay-2s">
         <FaCertificate className="text-blue-500 animate__animated animate__bounceIn animate__delay-3s" /> Certificates
       </h2>
 
@@ -57,7 +57,7 @@ const Certificate = () => (
         {certificates.map((cert, index) => (
           <div
             key={index}
-            className="bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden animate__animated animate__zoomIn transform hover:scale-105 transition-transform duration-300 hover:shadow-2xl"
+            className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden animate__animated animate__zoomIn transform hover:scale-105 transition-transform duration-300 hover:shadow-2xl"
             style={{ animationDelay: `${3 + index * 0.2}s` }}
           >
             <div className="relative">
@@ -80,20 +80,20 @@ const Certificate = () => (
             </div>
 
             <div className="p-6">
-              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2 animate__animated animate__fadeInUp" style={{ animationDelay: `${3.7 + index * 0.2}s` }}>
+              <h3 className="text-xl font-bold text-gray-900 mb-2 animate__animated animate__fadeInUp" style={{ animationDelay: `${3.7 + index * 0.2}s` }}>
                 {cert.title}
               </h3>
 
               <div className="mb-3">
-                <p className="text-blue-600 dark:text-blue-400 font-medium animate__animated animate__fadeInLeft" style={{ animationDelay: `${3.9 + index * 0.2}s` }}>
+                <p className="text-blue-600 font-medium animate__animated animate__fadeInLeft" style={{ animationDelay: `${3.9 + index * 0.2}s` }}>
                   {cert.issuer}
                 </p>
-                <p className="text-sm text-gray-500 dark:text-gray-400 animate__animated animate__fadeInLeft" style={{ animationDelay: `${4.1 + index * 0.2}s` }}>
+                <p className="text-sm text-gray-500  animate__animated animate__fadeInLeft" style={{ animationDelay: `${4.1 + index * 0.2}s` }}>
                   Issued {cert.issue_date}
                 </p>
               </div>
 
-              <p className="text-gray-700 dark:text-gray-300 text-sm mb-4 animate__animated animate__fadeInUp" style={{ animationDelay: `${4.3 + index * 0.2}s` }}>
+              <p className="text-gray-700  text-sm mb-4 animate__animated animate__fadeInUp" style={{ animationDelay: `${4.3 + index * 0.2}s` }}>
                 {cert.description}
               </p>
 
@@ -101,7 +101,7 @@ const Certificate = () => (
                 {cert.skills.map((skill, i) => (
                   <span
                     key={i}
-                    className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-3 py-1 rounded-full animate__animated animate__bounceIn transform hover:scale-110 transition-transform duration-200"
+                    className="bg-blue-100 text-blue-800  text-xs px-3 py-1 rounded-full animate__animated animate__bounceIn transform hover:scale-110 transition-transform duration-200"
                     style={{ animationDelay: `${4.7 + index * 0.2 + i * 0.1}s` }}
                   >
                     {skill}
@@ -115,7 +115,7 @@ const Certificate = () => (
 
       {/* Call to action for more certificates */}
       <div className="text-center mt-12 animate__animated animate__fadeInUp animate__delay-5s">
-        <p className="text-gray-600 dark:text-gray-400 mb-4">
+        <p className="text-gray-600  mb-4">
           More certificates available on LinkedIn
         </p>
         <a
